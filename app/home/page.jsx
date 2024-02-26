@@ -1,6 +1,6 @@
 import React from "react";
 
-import Homefooter from "@/components/footer";
+import Homefooter from "@/components/homefooter";
 import Homenav from "@/components/homenav";
 
 const Page = () => {

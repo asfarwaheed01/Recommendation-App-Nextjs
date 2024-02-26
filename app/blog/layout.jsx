@@ -1,6 +1,6 @@
 import React from "react";
-import Homefooter from "@/components/Footer";
-import Homenav from "@/components/Homenav";
+import Homefooter from "@/components/homefooter";
+import Homenav from "@/components/homenav";
 
 const Layout = ({ children }) => {
   return (
