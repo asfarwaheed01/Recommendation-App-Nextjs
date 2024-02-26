@@ -7,9 +7,11 @@ export default function Homenav({ className }) {
       className={`navbar flex w-full h-auto items-center justify-between px-1 py-3 shadow-lg z-20 ${className}`}
     >
       <div className="logo flex items-center w-[40%]">
-        <img src="/assets/logo.png" alt="Logo" />
+        <Link href="/">
+          <img src="/assets/logo.png" alt="Logo" />
+        </Link>
         <p className="text-[13px] text-white italic font-normal">
-          <Link href="/"> Try Know Yourself! </Link>
+          <Link href="/home"> Try Know Yourself! </Link>
         </p>
       </div>
 
@@ -18,7 +20,7 @@ export default function Homenav({ className }) {
           <li className="border border-white border-1 rounded-lg px-3">
             <Link href="/blog">Blog</Link>
           </li>
-          <li className="border border-white border-1 rounded-lg px-1">
+          <li className="border border-white border-1 rounded-lg px-1 hidden">
             <Link href="/about">About us</Link>
           </li>
           <li className="border border-white border-1 rounded-lg px-1">

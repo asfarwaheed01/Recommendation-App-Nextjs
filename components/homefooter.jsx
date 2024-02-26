@@ -13,7 +13,7 @@ export default function Homefooter({ className }) {
             <li className="border border-white border-1 rounded-lg px-4">
               <Link href="/blog">Blog</Link>
             </li>
-            <li className="border border-white border-1 rounded-lg px-1">
+            <li className="border border-white border-1 rounded-lg px-1 hidden">
               <Link href="/about">About us</Link>
             </li>
             <li className="border border-white border-1 rounded-lg px-1">
