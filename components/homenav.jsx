@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Homenav = ({ className }) => {
+export default function Homenav({ className }) {
   return (
     <nav
       className={`navbar flex w-full h-auto items-center justify-between px-1 py-3 shadow-lg z-20 ${className}`}
@@ -28,6 +28,4 @@ const Homenav = ({ className }) => {
       </div>
     </nav>
   );
-};
-
-export default Homenav;
+}

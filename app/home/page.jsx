@@ -1,6 +1,6 @@
 import React from "react";
 
-import Footer from "@/components/footer";
+import Homefooter from "@/components/footer";
 import Homenav from "@/components/homenav";
 
 const Page = () => {
@@ -32,7 +32,7 @@ const Page = () => {
             <div className="form-input relative">
               <input
                 type="email"
-                class="w-[90%] p-3 rounded-full text-black border-none placeholder-gray-600"
+                className="w-[90%] p-3 rounded-full text-black border-none placeholder-gray-600"
                 placeholder="your@gmail.com"
               />
               <button className="rounded-full py-3 px-8 bg-[#41436C] absolute right-0">
@@ -74,7 +74,7 @@ const Page = () => {
             <div className="form-input relative">
               <input
                 type="email"
-                class="w-[90%] p-3 rounded-full text-black border-none placeholder-gray-600"
+                className="w-[90%] p-3 rounded-full text-black border-none placeholder-gray-600"
                 placeholder="your@gmail.com"
               />
               <button className="rounded-full py-3 px-8 bg-[#41436C] absolute right-1">

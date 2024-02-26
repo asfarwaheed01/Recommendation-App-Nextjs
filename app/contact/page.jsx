@@ -7,8 +7,8 @@ const page = () => {
         <div className="connect">
           <h1 className="font-extrabold text-[24px]">Connect & Contribute</h1>
           <p className="text-black text-[24px] leading-relaxed pt-[2%]">
-            <strong>We value every voice and every idea.</strong> Whether you're
-            looking to <strong> connect, contribute,</strong> or
+            <strong>We value every voice and every idea.</strong> Whether
+            you&apos;re looking to <strong> connect, contribute,</strong> or
             <strong>create</strong> with us, your insights help us grow and
             <strong> Explore </strong> our <strong> FAQs</strong>, reach out
             through our <strong>contact form</strong>, or follow us on
