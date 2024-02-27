@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <div className="max-w-lg w-full p-0 auto rounded-lg shadow-md mx-auto italic relative">
       {/* section1 */}
-      <section className="sec-1 h-[100vh] relative">
+      <section className="sec-1 h-[605px] relative">
         <img
           src="/assets/Background.png"
           alt="background-image"
@@ -13,10 +13,10 @@ const Page = () => {
         <div className="know-yourself flex absolute top-[25%] left-[50%] transform -translate-x-1/2">
           <img src="/assets/know.png" alt="" className="w-[300px] h-[136px]" />
         </div>
-        <div className="form1 absolute bottom-[20%]">
+        <div className="form1 absolute bottom-[15%]">
           <form
             action=""
-            className="blurry-background border border-white border-1 w-[70%] mx-auto px-[20px] py-[30px] rounded-3xl bg-white bg-opacity-80"
+            className="blurry-background border border-white border-1 w-[80%] mx-auto px-[20px] py-[30px] rounded-3xl bg-white bg-opacity-80"
           >
             <div className="form-text flex items-center mb-8">
               <p className="italic text-[21px] text-black w-[80%] font-bold">
@@ -61,7 +61,7 @@ const Page = () => {
         <div className="form2 mt-[10%]">
           <form
             action=""
-            className="blurry-background border border-white border-1 w-[70%] mx-auto px-[15px] py-[10px] rounded-3xl bg-white bg-opacity-80"
+            className="blurry-background border border-white border-1 w-[80%] mx-auto px-[15px] py-[10px] rounded-3xl bg-white bg-opacity-80"
           >
             <div className="form-text flex items-center mb-8 justify-center">
               <p className="italic text-[21px] text-black w-[80%] font-bold text-center">
@@ -82,13 +82,9 @@ const Page = () => {
         </div>
       </section>
       {/* section-1 */}
-      <section className="section-3 h-auto flex items-center justify-center relative">
+      <section className="section-3 h-[550px] flex items-center justify-center relative">
         <div className="w-full min-h-full">
-          <img
-            src="assets/phone.png"
-            alt=""
-            className="object-cover h-full w-full"
-          />
+          <img src="assets/phone.png" alt="" className="object-cover w-full" />
         </div>
         <div className="text-3 absolute top-20 left-5">
           <h1 className="text-[33px] text-black font-extrabold leading-11 italic">

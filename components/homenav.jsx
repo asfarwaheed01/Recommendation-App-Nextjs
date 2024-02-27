@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Homenav({ className }) {
   return (
     <nav
-      className={`navbar flex w-full h-auto items-center justify-between px-1 py-3 shadow-lg z-20 ${className}`}
+      className={`navbar flex w-full h-auto items-center justify-between px-2 py-3 shadow-lg z-20 ${className}`}
     >
       <div className="logo flex items-center w-[40%]">
         <Link href="/">
