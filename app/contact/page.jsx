@@ -52,7 +52,7 @@ const page = () => {
             <h1 className="text-2xl font-bold bg-[#858080] text-black py-2 px-2 rounded-t-3xl absolute top-0 left-0 w-[100%]">
               Get in Touch
             </h1>
-            <div className="input1 flex items-center mb-4 justify-between w-80% mt-[12%]">
+            <div className="input1 flex items-center mb-4 justify-between w-80% mt-[13%]">
               <label htmlFor="reason" className="mr-3 font-bold w-1/3">
                 Reason of Contact:
               </label>

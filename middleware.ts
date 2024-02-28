@@ -11,6 +11,7 @@ export default authMiddleware({
     '/api/prompt',
     '/api/ai',
     '/api/feedback',
+    '/api/sendemail',
     '/blog',
     '/about',
     '/contact',

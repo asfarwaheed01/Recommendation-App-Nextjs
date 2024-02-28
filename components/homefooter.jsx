@@ -9,7 +9,7 @@ export default function Homefooter({ className }) {
           Know <br /> Yourself
         </h2>
         <div className="f-links">
-          <ul className="flex items-center gap-2 text-white text-[14px] font-bold">
+          <ul className="flex items-center gap-2 text-white text-[14px]">
             <li className="border border-white border-1 rounded-lg px-4">
               <Link href="/blog">Blog</Link>
             </li>

@@ -10,13 +10,13 @@ export default function Homenav({ className }) {
         <Link href="/">
           <img src="/assets/logo.png" alt="Logo" />
         </Link>
-        <p className="text-[13px] text-white italic font-normal">
+        <p className="text-[13px] text-white italic">
           <Link href="/home"> Try Know Yourself! </Link>
         </p>
       </div>
 
       <div className="menu w-[60%] flex justify-end">
-        <ul className="flex items-center gap-2 text-white text-[12px] font-bold">
+        <ul className="flex items-center gap-2 text-white text-[14px]">
           <li className="border border-white border-1 rounded-lg px-3">
             <Link href="/blog">Blog</Link>
           </li>
